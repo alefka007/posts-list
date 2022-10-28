@@ -1,0 +1,29 @@
+.navbar {
+    position: fixed;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    background-color: rgb(206, 202, 202);
+    z-index: 5;
+}
+.link {
+    width: 6rem;
+    display: flex;
+    justify-content: space-between;
+    transition: all 5s linear;
+}
+
+.item {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+
+.item:hover {
+    text-decoration: underline;
+}

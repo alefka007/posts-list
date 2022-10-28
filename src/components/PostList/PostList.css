@@ -1,0 +1,23 @@
+.post-enter {
+    opacity: 0;
+  }
+
+  .post-enter-active {
+    opacity: 1;
+    transition: opacity 500ms;
+  }
+
+  .post-exit {
+    opacity: 1;
+  }
+
+  .post-exit-active {
+    opacity: 0;
+    transition: opacity 500ms;
+  }
+
+  .postNotFound {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    text-align: center;
+  }

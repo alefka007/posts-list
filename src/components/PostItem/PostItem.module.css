@@ -1,0 +1,31 @@
+.post {
+    display: flex;
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius: 0 15px 15px 15px;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+
+.postContent {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    max-width: 550px;
+}
+
+.postContent span {
+    font-style: italic;
+}
+
+.postContent strong {
+    font-size: 18px;
+}
+
+.postButton {
+    display: flex;
+    gap: 10px;
+}
+  

@@ -1,0 +1,11 @@
+.select {
+    margin: .5rem 0;
+    width: 30%;
+    border-radius: .3rem;
+    outline: none;
+    border-color: gray;
+}
+
+.container {
+    margin-top: .5rem;
+}

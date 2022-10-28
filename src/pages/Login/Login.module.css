@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    text-align: center;
+}
+
+.form {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 40px 20px;
+    gap: 10px;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+}
